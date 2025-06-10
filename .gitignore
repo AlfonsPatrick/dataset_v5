@@ -1,0 +1,12 @@
+# Ignore PyTorch model weight files
+*.pt
+
+# Ignore entire output directories from training runs
+runs/
+runs_custom/
+
+# Standard Python cache and environment files
+__pycache__/
+*.pyc
+.env
+venv/
